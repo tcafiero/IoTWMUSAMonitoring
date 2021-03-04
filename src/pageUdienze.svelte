@@ -5,10 +5,11 @@
 	let titleTemp = "Sala Udienze - Temperature";
 	let titleHum = "Sala Udienze - Humidity";
 	import {days} from './stores';
+	import {version} from './stores';
 </script>
 
 <section id="PlotSection" class="visible">
-<h1>MUSA Monitoring</h1>
+<h1>MUSA Monitoring {$version}</h1>
 <label>Days</label>
 <input type=number bind:value={$days} min=0 max=100>
 
