@@ -1,6 +1,6 @@
 // This is the "Offline page" service worker
 
-const CACHE = "pwabuilder-page-v2.5";
+const CACHE = "pwabuilder-page-v2.6";
 // CODELAB: Add list of files to cache here.
 
 const FILES_TO_CACHE = [
