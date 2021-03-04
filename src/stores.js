@@ -8,3 +8,4 @@ export const previousState = writable("empty");
 export const bottomMenu = writable();
 export const connection = writable();
 export const days = writable(1);
+export const version = writable(1);

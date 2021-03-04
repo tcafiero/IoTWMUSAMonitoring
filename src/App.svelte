@@ -15,10 +15,12 @@ import {bottomMenu} from './stores';
 import {id} from './stores';
 import {battery} from './stores';
 import {connection} from './stores';
+import {version} from './stores';
 $state="PageCembalo";
 $connection=undefined;
 $id="Not connected";
 $battery="unknown";
+$version="v2.4";
 
 $bottomMenu = [
 {description: "Cembalo", icon: "icon ion-ios-exit", function: function () {
@@ -52,7 +54,7 @@ function download() {}
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>IoThingsWare MUSA monitoring</title>
+    <title>IoThingsWare MUSA monitoring v2.0</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="MUSA monitoring app" />
