@@ -1,5 +1,5 @@
 <script>
-	let channel=505552;
+	let channel=1317985;
 	let chartTemp = 5;
 	let chartHum = 6;
 	let titleTemp = "Sala Udienze - Temperature";

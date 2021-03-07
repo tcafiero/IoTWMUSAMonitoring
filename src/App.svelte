@@ -20,7 +20,7 @@ $state="PageCembalo";
 $connection=undefined;
 $id="Not connected";
 $battery="unknown";
-$version="v2.7";
+$version="v2.8";
 
 $bottomMenu = [
 {description: "Cembalo", icon: "icon ion-ios-exit", function: function () {

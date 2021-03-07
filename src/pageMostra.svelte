@@ -1,5 +1,5 @@
 <script>
-	let channel=505552;
+	let channel=1317985;
 	let chartTemp = 7;
 	let chartHum = 8;
 	let titleTemp = "Sala Mostra - Temperature";
